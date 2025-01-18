@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiệp Tết 2025</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #ffefcf;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .card {
+            position: relative;
+            width: 300px;
+            height: 450px;
+            background: linear-gradient(135deg, #ff9966, #ff5e62);
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            overflow: hidden;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .card h1 {
+            margin: 20px 0;
+            font-size: 24px;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .card p {
+            margin: 10px 20px;
+            color: #fff8f0;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .card img {
+            width: 100px;
+            height: 100px;
+            margin-top: 10px;
+            animation: scaleUp 1.5s ease-in-out infinite;
+        }
+
+        @keyframes scaleUp {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+
+        .card .btn {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #fff;
+            color: #ff5e62;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 25px;
+            font-size: 14px;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .card .btn:hover {
+            background: #ff5e62;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Chúc Mừng Năm Mới 2025</h1>
+        <img src="https://via.placeholder.com/100" alt="Hình trang trí">
+        <p>Chúc bạn và gia đình một năm mới An Khang Thịnh Vượng, Vạn Sự Như Ý!</p>
+        <button class="btn">Xem thêm</button>
+    </div>
+</body>
+</html>
